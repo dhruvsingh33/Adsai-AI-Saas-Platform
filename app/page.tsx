@@ -3,12 +3,12 @@ import { Sparkles, Video, MessageSquare } from "lucide-react"
 
 export default function Home() {
   return (
-    <div className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center space-y-8 text-center">
-      <div className="space-y-4">
-        <h1 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+    <div className="flex min-h-[calc(100vh-4rem)] flex-col items-center justify-center space-y-8 text-center px-4 sm:px-6 lg:px-8">
+      <div className="space-y-4 max-w-3xl">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
           Create Amazing Video Ads with AI
         </h1>
-        <p className="mx-auto max-w-[700px] text-muted-foreground md:text-xl">
+        <p className="mx-auto text-muted-foreground text-base sm:text-lg md:text-xl">
           Transform your ideas into professional video ads using the power of AI.
           No design skills required.
         </p>
@@ -23,7 +23,8 @@ export default function Home() {
           View Templates
         </Button>
       </div>
-      <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+      
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-6xl mt-8">
         <div className="rounded-lg border bg-card p-6 text-left">
           <Sparkles className="mb-4 h-8 w-8 text-primary" />
           <h3 className="mb-2 text-xl font-semibold">AI-Powered Creation</h3>

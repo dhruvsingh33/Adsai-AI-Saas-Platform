@@ -33,9 +33,11 @@ export default function RootLayout({
               />
               <main className={cn(
                 "flex-1 transition-all duration-300 ease-in-out flex justify-center",
-                isSidebarCollapsed ? "ml-[80px]" : "ml-[240px]"
+                "w-full",
+                isSidebarCollapsed ? "md:ml-[80px]" : "md:ml-[240px]",
+                "ml-0" // Remove margin on mobile
                 )}>
-                <div className="container mx-auto p-6">
+                <div className="container mx-auto p-4 md:p-6">
                   {children}
                 </div>
               </main>
