@@ -1,6 +1,6 @@
 # AI Video Ads Generator
 
-A modern SaaS platform for creating professional video advertisements using AI. Built with Next.js, React, Akool AI, and Convex.
+A modern SaaS platform for creating professional video advertisements using AI. Built with Next.js, React, Akool AI, and Convex
 
 ![AI Video Ads Generator](https://img.shields.io/badge/AI-Video%20Ads%20Generator-blue)
 ![Next.js](https://img.shields.io/badge/Next.js-13-black)
