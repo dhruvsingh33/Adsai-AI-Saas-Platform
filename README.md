@@ -1,4 +1,4 @@
-# AI Video Ads Generator
+# AI Video Ads Generato
 
 A modern SaaS platform for creating professional video advertisements using AI. Built with Next.js, React, Akool AI, and Convex.
 
