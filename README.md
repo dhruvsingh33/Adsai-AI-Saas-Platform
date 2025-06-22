@@ -8,6 +8,8 @@ A modern SaaS platform for creating professional video advertisements using AI. 
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC)
 
+![App Screenshot](./public/ss.png)
+
 ## Features
 
 - 🎥 AI-powered video ad creation
